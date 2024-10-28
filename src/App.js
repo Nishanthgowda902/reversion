@@ -23,6 +23,12 @@ function App() {
           hi Nishanth Gowda
         </p>
       )}
+       {theme === 'naveen' && (
+       <p className=" naveen-theme">
+          hi Naveen
+        </p>
+      )}
+
 
       
     </div>
